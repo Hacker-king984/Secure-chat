@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+/* Container */
+.container {
+    margin-top: 50px;
+}
+
+/* Background */
+.background {
+    width: 100%;
+    height: 300px;
+    background: url('background.png') no-repeat center center/cover;
+    border-radius: 10px;
+}
+
+/* Welcome Message */
+.welcome-message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Chat Container */
+.chat-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+}
+
+/* Attachment Button */
+.attachment-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007AFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Attachment Options */
+.attachment-options {
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.attachment-options button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Light Mode Styles */
+.light-mode {
+    background-color: white;
+    color: black;
+}
+
+.light-mode .chat-container {
+    background: #f1f1f1;
+}
+
+.light-mode .attachment-btn {
+    background: #0056b3;
+}
+
+/* Blue Tick Icon for Payment Users */
+.blue-tick {
+    width: 20px;
+    height: 20px;
+    background: url('blue_tick_without_icon.png') no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* Message Box */
+.message-box {
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.message-box .message {
+    color: white;
+}
+
+/* Button Styles */
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007AFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .chat-container {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .attachment-btn {
+    background-color: #007AFF;
+}
+
+/* User Information Section */
+.user-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.user-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.user-info .blue-tick {
+    width: 20px;
+    height: 20px;
+    background: url('blue_tick_without_icon.png') no-repeat center center;
+    background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+/* Settings & Features */
+.settings-section {
+    margin-top: 30px;
+}
+
+.settings-section h2 {
+    font-size: 22px;
+}
+
+.settings-section button {
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .chat-container {
+        padding: 15px;
+    }
+
+    .attachment-btn {
+        width: 100%;
+    }
+
+    .message-box {
+        margin-bottom: 5px;
+    }
+}
